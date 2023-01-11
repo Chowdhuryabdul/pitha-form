@@ -1,0 +1,11 @@
+label{
+    color: blue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+form{
+    background-image: url(../assets/other.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
