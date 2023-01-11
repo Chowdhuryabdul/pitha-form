@@ -12,8 +12,30 @@ form{
 td, th{
     border: 5px solid red;
     padding: 5px 10px; 
-    background-color: chartreuse;  
+    background-color: chartreuse;
+
 }
 table{
     border-collapse: collapse;
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin: 5px;
+    text-decoration: none;
+    padding: 0 5px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightgray;
+    padding: 0 5px;
+    
 }
