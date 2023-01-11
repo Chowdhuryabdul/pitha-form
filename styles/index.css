@@ -9,3 +9,11 @@ form{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+td, th{
+    border: 5px solid red;
+    padding: 5px 10px; 
+    background-color: chartreuse;  
+}
+table{
+    border-collapse: collapse;
+}
