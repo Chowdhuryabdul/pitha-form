@@ -6,7 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html form</title>
 </head>
+   <style>
+    label{
+        display: flex;
+    }
+   </style>
 <body>
-    
+    <h1>Jamaler mar pitha ghor</h1>
+    <form>
+        <label for="your name">your name
+            <input type="text" placeholder="your name"> 
+        </label>
+        <label for="your Email">your email
+            <input type="Email" placeholder="your Email">
+        </label>
+        <label for="your Phone number">your phone number
+            <input type="Phone number" placeholder="Phone number">
+        </label>
+        <label for="your Password">your password
+            <input type="password" placeholder="Password">
+        </label>
+        <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="pitha" id="Chitoy">Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">vapa
+            </label>
+            <label for="coco">
+                <input type="radio" name="pitha" id="coco">coco
+            </label>
+            <fieldset>
+                <legend>select one or more vorta</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha">sorisha
+                </label>
+                <label for="dal">
+                    <input type="checkbox" name="vorta" id="dal">dal
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">shutki
+                </label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>special instructions</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
 </body>
 </html>
